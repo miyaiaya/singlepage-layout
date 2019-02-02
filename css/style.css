@@ -72,6 +72,9 @@ a:link, a:visited, a:hover, a:active{
   float: left;
   width: 660px;
 }
+.hidden{
+  display: none;
+}
 .sidemenu{
   float: right;
   width: 275px;
