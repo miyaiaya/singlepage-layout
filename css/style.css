@@ -182,9 +182,17 @@ a:link, a:visited, a:hover, a:active{
   white-space: nowrap;
 }
 .article-box{
+  position: relative;
   display: inline-block;
   width: 315px;
+  height: 360px;
   margin-bottom: 30px;
+  padding: 210px 15px 0
+  box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.15s;
+}
+.article-box:hover{
+  opacity: 0.8;
 }
 .article-box:nth-of-type(odd){
   float: left;
