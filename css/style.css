@@ -363,6 +363,9 @@ a:link, a:visited, a:hover, a:active{
 }
 .footer{
   width: 100%;
+  padding: 20px 0 30px;
+  background: url(../images/bg-footer.gif);
+  color: #fff;
 }
 .clearfix::after{
   content: '';
