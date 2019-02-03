@@ -126,6 +126,12 @@ a:link, a:visited, a:hover, a:active{
   font-size: 1.1rem;
   line-height: 1;
 }
+.heading{
+  padding: 10px 12px;
+  background: url('../images/bg-slash.gif');
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+}
 .sidemenu{
   float: right;
   width: 275px;
