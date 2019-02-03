@@ -181,6 +181,18 @@ a:link, a:visited, a:hover, a:active{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.article-box{
+  display: inline-block;
+  width: 315px;
+  margin-bottom: 30px;
+}
+.article-box:nth-of-type(odd){
+  float: left;
+}
+.article-box:nth-of-type(even){
+  float: right;
+}
+
 .sidemenu{
   float: right;
   width: 275px;
